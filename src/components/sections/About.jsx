@@ -22,7 +22,7 @@ import {
   SiGithubactions
 } from "react-icons/si";
 import { gsap } from "gsap";
-import { personalInfo } from "../../data/portfolio"
+import { personalInfo } from "../../data/portfolio";
 
 const skills = [
   // Frontend
