@@ -5,7 +5,7 @@ export const personalInfo = {
   email: "yahia.edu500@gmail.com",
   github: "https://github.com/Yahia0mohamed",
   linkedin: "https://www.linkedin.com/in/0yr003/",
-  image: "../../assets/myIMG.jpg",
+  image: "/assets/myIMG.jpg",
   AI_cv: "/CV_Yahia_Mohamed_Nabil_AI.pdf",
   front_cv: "/CV_Yahia_Mohamed_Nabil_frontend.pdf",
 };
@@ -18,7 +18,7 @@ export const projects = [
     tech: ["React", ".NET", "MongoDB", "Docker", "LLaMA 3.2", "T5"],
     github: "https://github.com/Thotron-AI-Narrated-Video-Compilation",
     live: "https://thotron-ai-nvc.netlify.app/",
-    image: "../../assets/Thotron.jpg",
+    image: "/assets/Thotron.jpg",
   },
   {
     title: "MIMO – BIM Automation Assistant",
@@ -27,7 +27,7 @@ export const projects = [
     tech: ["WPF","Python", "LLaMA 3.2", "RAG", "Autodesk Revit API"],
     github: "#",
     live: "#",
-    image: "../../assets/MIMO.jpg",
+    image: "/assets/MIMO.jpg",
   },
   {
     title: "Linkee – Social Media Platform",
@@ -36,7 +36,7 @@ export const projects = [
     tech: ["Django", "MS SQL", "WebSockets","HTML","CSS", "JavaScript"],
     github: "https://github.com/baherjr/DEPI_SOCIAL_PROJECT",
     live: "#",
-    image: "../../assets/Linkee.jpg",
+    image: "/assets/Linkee.jpg",
   },
   {
     title: "Ejaar – Car Rental Platform",
@@ -45,7 +45,7 @@ export const projects = [
     tech: ["Flutter", "Firebase", "FastAPI", "Stripe API"],
     github: "https://github.com/Yahia0mohamed/Ejaar_car_rental_app",
     live: "#",
-    image: "../../assets/ejar_animation.gif",
+    image: "/assets/ejar_animation.gif",
   },
   {
     title: "Portfolio Website",
@@ -54,6 +54,6 @@ export const projects = [
     tech: ["React", "Tailwind CSS", "JavaScript","GSAP"],
     github: "https://github.com/Yahia0mohamed/portfolio",
     live: "#",
-    image: "../../assets/myPortfolio.jpg",
+    image: "/assets/myPortfolio.jpg",
   },
 ];
