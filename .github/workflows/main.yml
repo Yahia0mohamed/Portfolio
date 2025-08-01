@@ -1,0 +1,15 @@
+name: Trigger Build in Target Repo
+on:
+  push:
+    branches: [main]  # Change 'main' to your branch name
+
+jobs:
+  trigger-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger repository dispatch
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          repository: Yahia0mohamed/portfolio-Build
+          event-type: source-updated
+          token: ${{ secrets.PAT_TOKEN }}
