@@ -25,7 +25,6 @@ const Header = () => {
     { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
     { name: "Projects", href: "#projects" },
-    { name: "Skills", href: "#skills" },
     { name: "Contact", href: "#contact" },
   ];
 
@@ -37,7 +36,6 @@ const Header = () => {
 
   useEffect(() => {
     const initAnimations = () => {
-      console.log("🎬 Starting header animations...");
 
       // Initial states
       gsap.set(headerRef.current, { y: -80, opacity: 0, scale: 0.9 });

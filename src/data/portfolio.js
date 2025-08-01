@@ -23,7 +23,7 @@ export const projects = [
   {
     title: "MIMO – BIM Automation Assistant",
     description:
-      "Developed for Mimar Group in the engineering and architecture sector, MIMO is an AI assistant for Autodesk Revit that automates element naming in BIM workflows. Leveraged LLaMA 3.2 1B with RAG techniques to generate context‑aware, standards‑compliant names, significantly reducing manual effort for architectural teams.",
+      "Developed for Mimar Group in the engineering and architecture sector, MIMO is a desktop AI assistant for Autodesk Revit that automates element naming in BIM workflows. The application leverages LLaMA 3.2 1B with RAG (Retrieval-Augmented Generation) techniques to generate context-aware, standards-compliant names, significantly reducing manual effort for architectural teams and streamlining project documentation processes.",
     tech: ["WPF","Python", "LLaMA 3.2", "RAG", "Autodesk Revit API"],
     github: "#",
     live: "#",
