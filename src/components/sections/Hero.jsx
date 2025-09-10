@@ -56,19 +56,11 @@ const Hero = () => {
           </a>
 
           <a
-            href={personalInfo.AI_cv}
+            href={personalInfo.cv}
             download
             className="flex items-center gap-2 px-3 py-2 sm:px-5 sm:py-3 bg-p text-bg rounded-lg font-semibold text-sm sm:text-base hover:bg-a transition"
           >
-            AI resume
-          </a>
-
-          <a
-            href={personalInfo.front_cv}
-            download
-            className="flex items-center gap-2 px-3 py-2 sm:px-5 sm:py-3 bg-p text-bg rounded-lg font-semibold text-sm sm:text-base hover:bg-a transition"
-          >
-            Frontend resume
+            My Resume
           </a>
         </div>
       </div>

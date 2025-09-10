@@ -6,6 +6,7 @@ export const personalInfo = {
   github: "https://github.com/Yahia0mohamed",
   linkedin: "https://www.linkedin.com/in/0yr003/",
   image: "/assets/myIMG.jpg",
+  cv:"/Yahia_Mohamed_resume.pdf",
   AI_cv: "/CV_Yahia_Mohamed_Nabil_AI.pdf",
   front_cv: "/CV_Yahia_Mohamed_Nabil_frontend.pdf",
 };
@@ -56,4 +57,14 @@ export const projects = [
     live: "#",
     image: "/assets/myPortfolio.jpg",
   },
+  {
+    title: "Nexus Agent CLI",
+    description:
+      "Command-line application with multiple agents for code review, bug fixing, code generation, documentation, and error explanation. Built with LangChain for orchestration and Gemini API as the core LLM.",
+    tech: ["Python", "LangChain", "Gemini API", "CLI"],
+    github: "https://github.com/Yahia0mohamed/NEXUS",
+    live: "#",
+    image: "/assets/NEXUS - system architure.svg",
+  },
+
 ];
