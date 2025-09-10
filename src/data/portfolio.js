@@ -7,8 +7,6 @@ export const personalInfo = {
   linkedin: "https://www.linkedin.com/in/0yr003/",
   image: "/assets/myIMG.jpg",
   cv:"/Yahia_Mohamed_resume.pdf",
-  AI_cv: "/CV_Yahia_Mohamed_Nabil_AI.pdf",
-  front_cv: "/CV_Yahia_Mohamed_Nabil_frontend.pdf",
 };
 
 export const projects = [
