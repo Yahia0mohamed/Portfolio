@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: "Yahia Mohamed",
   role: "Junior Software Engineer",
-  bio: "Junior Software Engineer passionate about building intelligent, AI‑driven solutions and sleek web apps — always learning, innovating, and pushing my coding skills further.",
+  bio: "Junior Software Engineer passionate about building intelligent, AI‑driven solutions and sleek web apps — always learning, innovating, and pushing my coding skills further. Currently I'm a Frontend Engineering Intern at Geidea",
   email: "yahia.edu500@gmail.com",
   github: "https://github.com/Yahia0mohamed",
   linkedin: "https://www.linkedin.com/in/0yr003/",
