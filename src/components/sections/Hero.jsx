@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { personalInfo } from "../../data/portfolio";
 import { animateStaggerFadeUp, animateScaleIn } from "../../utils/animations";
 
@@ -34,7 +34,7 @@ const Hero = () => {
           ref={addToRefs}
           className="text-base sm:text-lg md:text-2xl mt-3 text-a"
         >
-          {personalInfo.role}
+          {personalInfo.role_description}
         </h2>
         <p
           ref={addToRefs}
@@ -66,7 +66,7 @@ const Hero = () => {
       </div>
 
       {/* Image */}
-      <div className="flex-shrink-0">
+      <div className="shrink-0">
         <img
           ref={imageRef}
           src={personalInfo.image}

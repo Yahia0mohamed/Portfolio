@@ -23,6 +23,7 @@ const Header = () => {
 
   const menuItems = [
     { name: "Home", href: "#home" },
+    {name: "Experience", href: "#experience" },
     { name: "About", href: "#about" },
     { name: "Projects", href: "#projects" },
     { name: "Contact", href: "#contact" },
@@ -222,7 +223,7 @@ const Header = () => {
               onClick={() => handleNavClick("#home", "Home")}
             >
               <div className="flex items-center space-x-2">
-                <div className="w-10 h-10 bg-gradient-to-r from-accent to-primary rounded-lg flex items-center justify-center">
+                <div className="w-10 h-10 bg-linear-to-r from-accent to-primary rounded-lg flex items-center justify-center">
                   <span className="text-background font-bold text-xl">
                     {personalInfo.name.charAt(0)}
                     {personalInfo.name.split(" ")[1]?.charAt(0)}

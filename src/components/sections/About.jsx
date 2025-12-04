@@ -3,7 +3,8 @@ import React, { useEffect, useRef } from "react";
 import {
   FaReact,
   FaPython,
-  FaGitAlt
+  FaGitAlt,
+  FaHtml5
 } from "react-icons/fa";
 import {
   SiJavascript,
@@ -19,15 +20,26 @@ import {
   SiPytorch,
   SiHuggingface,
   SiScikitlearn,
-  SiGithubactions
+  SiGithubactions,
+  SiAngular,
+  SiTypescript,
+  SiCss3,
+  SiRedux,
+  SiNgrx
 } from "react-icons/si";
 import { gsap } from "gsap";
 import { personalInfo } from "../../data/portfolio";
 
 const skills = [
   // Frontend
+  { icon: <FaHtml5 />, label: "HTML" },
+  { icon: <SiCss3 />, label: "CSS" },
   { icon: <FaReact />, label: "React" },
+  { icon: <SiAngular />, label: "Angular" },
+  { icon: <SiRedux />, label: "Redux" },
+  { icon: <SiNgrx />, label: "NgRx" },
   { icon: <SiJavascript />, label: "JavaScript" },
+  { icon: <SiTypescript />, label: "TypeScript" },
   { icon: <SiTailwindcss />, label: "Tailwind CSS" },
   { icon: <SiDart />, label: "Dart" },
   { icon: <SiFlutter />, label: "Flutter" },

@@ -1,7 +1,8 @@
 export const personalInfo = {
   name: "Yahia Mohamed",
   role: "Junior Software Engineer",
-  bio: "Junior Software Engineer passionate about building intelligent, AI‑driven solutions and sleek web apps — always learning, innovating, and pushing my coding skills further. Currently I'm a Frontend Engineering Intern at Geidea",
+  role_description: "Frontend Engineer at Geidea",
+  bio: "Junior Software Engineer passionate about building intelligent, AI‑driven solutions and sleek web apps — always learning, innovating, and pushing my coding skills further.",
   email: "yahia.edu500@gmail.com",
   github: "https://github.com/Yahia0mohamed",
   linkedin: "https://www.linkedin.com/in/0yr003/",
@@ -65,4 +66,28 @@ export const projects = [
     image: "/assets/NEXUS - system architure.svg",
   },
 
+];
+
+export const experience = [
+  {
+    role: "Frontend Engineering Intern",
+    company: "Geidea",
+    period: "Sep 2025 — Present",
+    description:
+      "Improved Angular build performance by 41% through lazy loading and optimization. Built delta features and UI components to align modern Angular SPA with legacy systems. Supported micro-frontend to SPA transition while refactoring modules for better maintainability.",
+  },
+  {
+    role: "Software Engineer",
+    company: "Mimar Architecture and Engineering",
+    period: "Mar 2025 — Jul 2025",
+    description:
+      "Developed MIMO, a WPF desktop tool for KPI tracking and automated architectural model naming in Autodesk Revit using RAG. Optimized AI-driven naming system, reducing response time from 15 seconds to 1 second and improving standards compliance.",
+  },
+  {
+    role: "Data Engineering Trainee",
+    company: "DEPI",
+    period: "Apr 2024 — Sep 2024",
+    description:
+      "Gained hands-on experience with Database and Data Warehousing concepts. Implemented ETL pipelines, performed data analysis and cleansing, and worked with Hugging Face and pretrained machine learning models.",
+  },
 ];
